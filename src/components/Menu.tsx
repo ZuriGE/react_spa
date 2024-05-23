@@ -60,7 +60,7 @@ export default function Menu() {
             {visible && 
                 <nav className=" absolute top-16 left-0 w-full flex flex-col items-center py-4 bg-neutral-200 shadow-md">
                      {menu.map((link)=>
-                    <a className="py-4 text-lg w-3/4 text-center border-b border-neutral-300 last:border-none"
+                    <a className="py-4 text-lg w-3/4 text-center border-b border-neutral-300 last:border-none hover:font-bold"
                         key={link.id}
                         href={link.link}
                     >{link.name}</a>
