@@ -252,7 +252,7 @@ export const db:Book[] = [
 		summary: `A Ernie Cunningham nunca le han gustado las reuniones familiares. Aunque algo tiene que ver el hecho de que hace tres años viera a su hermano, Michael, matar a alguien y lo denunciara a la policía, un ultraje que la familia nunca le ha perdonado. Ahora han decidido reunirse para una ocasión especial: pasarán un fin de semana en un hotel en la montaña para celebrar el reencuentro con Michael. Pero los Cunningham no son una familia que se pase el fin de semana bajo la manta contemplando el paisaje. El día en que llegue Michael encontrarán el cadáver de un hombre en las inmediaciones del hotel. Cuando la policía sea incapaz de resolver el crimen, quedará en manos de Ernie deducir si el culpable es uno de sus familiares... antes de que sea demasiado tarde.`,
 		isbn: 9788408271130,
 		year: 2023,
-		tags: ["Novela negra"],
+		tags: ["Novela", "Negra"],
 		pages: 448,
 	},
 	{
@@ -312,7 +312,7 @@ export const db:Book[] = [
         Hoy, esta historia ambientada en un planeta para mujeres se lee como una  novela de viajes entre distintas realidades protagonizada por cuatro  versiones de una misma mujer, en distintos momentos y con un mismo  denominador común: la desigualdad que sufren todas ellas, cada una en  uno de esos cuatro mundos paralelos. La obra es, además, un poderoso  ensayo que denuncia la discriminación y el ninguneo que sufre el genero femenino.`,
 		isbn: 9788417347819,
 		year: 1975,
-		tags: ["Ciencia ficción", "Novela"],
+		tags: ["Sci-Fi", "Novela"],
 		pages: 272,
 	},
 ];
