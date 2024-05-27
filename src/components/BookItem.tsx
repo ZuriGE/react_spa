@@ -51,7 +51,7 @@ export default function BookItem({book}:BookItemProps) {
                     </div>
 
                     <div className=" grid grid-cols-3 gap-2 pt-3 pb-6 border-b border-neutral-400 ">
-                            {book.tags.map((tag)=>(
+                            {book.tags?.map((tag)=>(
                                 <div className="m-0.5 h-6 rounded-xl bg-fuchsia-950 text-neutral-200" key={tag}>
                                     <p className=" text-center text-sm font-semibold leading-6">{tag}</p>
                                 </div>
@@ -66,12 +66,8 @@ export default function BookItem({book}:BookItemProps) {
                             <button className="mt-3  w-full p-2 h-8 rounded-md flex justify-center items-center text-white hover:opacity-70 bg-red-600 active:scale-95" onClick={deleteBook} >
                                 <FaRegTrashAlt/>
                                 <span className=" pl-4 font-semibold">Borrar libro</span>
-                            </button>
-                 
-                    
-                        
-                       
-                           
+                            </button>            
+
                 {/* El contenido de este div solo se muestra al hacer hover en la card */}   
                 </div>
 
