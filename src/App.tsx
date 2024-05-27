@@ -1,6 +1,7 @@
+import { Outlet } from "react-router-dom"
 import Footer from "./components/Footer"
 import Header from "./components/Header"
-import BooksPage from "./pages/BooksPage"
+
 
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
     <div className="min-h-screen flex flex-col bg-neutral-300">
       <Header />
       <main className="flex-grow  w-full">
-        <BooksPage></BooksPage> 
+        <Outlet/>
       </main>
       <Footer />
     </div>

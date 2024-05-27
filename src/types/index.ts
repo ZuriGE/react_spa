@@ -1,7 +1,8 @@
 export type NavItem = {
     id:number,
     name:string,
-    link:string
+    link:string,
+    public:boolean
 }
 export type Book = {
     id: number,
@@ -13,6 +14,6 @@ export type Book = {
     summary: string,
     isbn: number,
     year: number,
-    tags: string[],
     pages:number,
+    tags?: string[],
 }
